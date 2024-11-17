@@ -18,10 +18,7 @@ public class servicioPass {
 
             //Generar contraseña
         StringBuilder contrasenya = new StringBuilder();
-        var random = new Random();
-
-        //Añadir especificaciones
-
+        
         //mayusculas
         for(int i = 0; i < requisitos.getNumMayusculas(); i++){
             contrasenya.append(generarCaracterAleatorio("QWERTZUIOPASDFGHJKLYXCVBNM"));
